@@ -10,6 +10,16 @@ The code was developed and tested on the **VALLES dataset**.
 
 ## Skin tone estimation details
 - Skin tone is estimated using **ITA computed from true CIE L\*a\*b\*** values
+
+The following categories are used:
+
+- **Very light**: ITA > 55  
+- **Light**: 41 < ITA ≤ 55  
+- **Intermediate**: 28 < ITA ≤ 41  
+- **Tan**: 10 < ITA ≤ 28  
+- **Brown**: −30 < ITA ≤ 10  
+- **Dark**: ITA ≤ −30
+
 - Background pixels are excluded using intensity-based masking
 - **Highlights and shadows are removed** by discarding extreme L\* values:
   - Only pixels between the **5th and 98th percentiles of L\*** are retained
