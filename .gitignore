@@ -1,0 +1,6 @@
+datasets/
+outputs/toneClassification
+
+__pycache__/
+*.pyc
+.env
