@@ -3,7 +3,7 @@
 This repository contains Python scripts for **skin segmentation**, **skin tone estimation**, and **dataset-level analysis** using the Individual Typology Angle (ITA).  
 The code was developed and tested on the **VALLES dataset**.
 
-<img src="assets/Screenshot 2026-02-07 192527.png" width="600">
+<img src="assets/Screenshot 2026-02-07 192527.png" width="300">
 
 ## Important notes
 - The segmentation algorithm assumes **black backgrounds** or **already segmented images**
