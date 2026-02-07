@@ -1,12 +1,10 @@
-# Skin Tone Classification (VALLES)
+# Skin Tone Classification 
 
 This repository contains Python scripts for **skin segmentation**, **skin tone estimation**, and **dataset-level analysis** using the Individual Typology Angle (ITA).  
 The code was developed and tested on the **VALLES dataset**.
 
 ## Important notes
 - The segmentation algorithm assumes **black backgrounds** or **already segmented images**
-- It is not designed for images with complex or cluttered backgrounds
-- Thresholds and heuristics are dataset-specific and may require tuning for other datasets
 
 ## Skin tone estimation details
 - Skin tone is estimated using **ITA computed from true CIE L\*a\*b\*** values
@@ -24,5 +22,3 @@ The code was developed and tested on the **VALLES dataset**.
 - CSV files with ITA statistics and skin tone labels  
 - Optional visualizations grouped by skin tone  
 
-## Author
-Laura Gozzo
