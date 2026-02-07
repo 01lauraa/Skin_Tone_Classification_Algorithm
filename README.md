@@ -10,6 +10,10 @@ The code was developed and tested on the **VALLES dataset**.
 
 ## Skin tone estimation details
 - Skin tone is estimated using **ITA computed from true CIE L\*a\*b\*** values
+- Background pixels are excluded using intensity-based masking
+- **Highlights and shadows are removed** by discarding extreme L\* values:
+  - Only pixels between the **5th and 98th percentiles of L\*** are retained
+- Additional robustness is achieved using **IQR-based outlier filtering** before computing final ITA statistics
 
 The following categories are used:
 
@@ -19,12 +23,7 @@ The following categories are used:
 - **Tan**: 10 < ITA ≤ 28  
 - **Brown**: −30 < ITA ≤ 10  
 - **Dark**: ITA ≤ −30
-
-- Background pixels are excluded using intensity-based masking
-- **Highlights and shadows are removed** by discarding extreme L\* values:
-  - Only pixels between the **5th and 98th percentiles of L\*** are retained
-- Additional robustness is achieved using **IQR-based outlier filtering** before computing final ITA statistics
-
+  
 ## Scripts
 - `segment.py` – YCrCb-based skin segmentation with morphological cleanup  
 - `skintoneclass.py` – ITA computation, tone classification, CSV export, and visualization  
