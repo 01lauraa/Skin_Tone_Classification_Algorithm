@@ -1,7 +1,7 @@
 # Skin Tone Classification 
 
 This repository contains Python scripts for **skin segmentation**, **skin tone estimation**, and **dataset-level analysis** using the Individual Typology Angle (ITA).  
-The code was developed and tested on the **VALLES dataset**.
+The code was developed and tested on the Coral et al. (2025) dataset.
 
 <img src="assets/Screenshot 2026-02-07 192527.png" width="300">
 
@@ -33,3 +33,5 @@ The following categories are used:
 - CSV files with ITA statistics and skin tone labels  
 - Optional visualizations grouped by skin tone  
 
+## References
+Coral, M. Á. V., Injante, R., Cabrera, J. R. N., Tuanama, L. P., Ramirez, L. G. S., Roque, M. E. F., & Morales, L. K. Q. (2025). Non-invasive multimodal dataset for the detection of iron deficiency anemia in young adults: Fingertip videos, palm videos, and nail photographs. Revista Científica de Sistemas e Informática, 5(2), 1.
