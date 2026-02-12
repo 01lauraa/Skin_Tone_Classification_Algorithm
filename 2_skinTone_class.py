@@ -62,7 +62,7 @@ def estimate_skin_tone(bgr_img):
         # fallback: use initial ITA if filtering removed too much
         ita_vals_filtered = ita_vals
 
-    # Compute final ITA statistics 
+   
     ita_med = float(np.median(ita_vals_filtered))
     q1_f, q3_f = np.percentile(ita_vals_filtered, [25, 75])
     ita_iqr = float(q3_f - q1_f)
