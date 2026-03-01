@@ -9,13 +9,13 @@ The current implementation was used and tested on the Coral et al. (2025) datase
 The pipeline consists of four main steps:
 
 1. **Skin segmentation**
-   Segment the skin region from each image using adaptive thresholding in **YCrCb** color space.
+   Segment the skin region from each image.
 
 2. **Skin tone estimation**
-   Estimate skin tone from segmented images using the **Individual Typology Angle (ITA)** computed in **CIELAB** space.
+   Estimate skin tone from segmented images using the **Individual Typology Angle (ITA)**.
 
 3. **Visualization**
-   Create a figure showing example original images grouped by predicted skin tone category.
+   Create a figure showing example original images grouped by predicted skin tone category to check accuracy of classification and potentailly adjust parameters.
 
 4. **Dataset organization utilities**
    Count images per tone category, export subsets of a chosen tone, or sort images into folders by tone.
