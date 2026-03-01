@@ -141,38 +141,7 @@ The pipeline produces:
 * a visualization figure showing tone-grouped examples
 * optional folders containing images grouped or filtered by tone
 
----
 
-## Example usage
-
-### 1. Segment skin regions
-
-```bash
-python run_segment_skin.py
-```
-
-### 2. Compute ITA and skin-tone labels
-
-```bash
-python run_estimate_skin_tone.py
-```
-
-### 3. Visualize examples by tone
-
-```bash
-python run_visualize_skin_tones.py
-```
-
-### 4. Export a subset of one tone
-
-```bash
-python run_export_tone_subset.py
-```
-
-### 5. Count images per tone
-
-```bash
-python run_count_tones.py
 ```
 
 ## Notes
