@@ -1,6 +1,9 @@
-datasets/
+dataset/
 outputs/toneClassification
 
 __pycache__/
 *.pyc
 .env
+
+old/
+outputs/
